@@ -1,0 +1,35 @@
+html {
+  background: url(img/pavement.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  overflow: hidden;
+}
+
+
+.parent {
+  position: absolute;
+}
+
+.image1 {
+  position: absolute;
+  left: 400px;
+  top: 85px;
+  transition: transform 1.5s cubic-bezier(0.755, 0.05, 0.855, 0.06);
+}
+
+.image2 {
+  position: absolute;
+  left: 500px;
+  top: 335px;
+}
+
+
+
+/* ANIMATIONS */
+
+.fly-away{
+  transition: transform 1.5s cubic-bezier(0.755, 0.05, 0.855, 0.06);
+  transform: translateX(500px) rotate(15deg);
+}
